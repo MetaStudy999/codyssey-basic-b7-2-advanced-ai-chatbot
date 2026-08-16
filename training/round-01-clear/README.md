@@ -4,6 +4,14 @@
 현재 모드: **Phase A — REFERENCE BUILD**  
 Runtime Project 상태: **⬜ NOT STARTED**
 
+## 선행 학습
+
+- **필수 선행 미션:** B7-1
+- **권장 선행 미션:** B4-2, B5-2, B5-3, B6-1
+- **있으면 좋은 선행 지식:** REST, Auth/Ownership, 관계형 모델, Cloud Deploy, 기술 문서화
+
+B7-2 공식 Mission은 Project A의 AI 챗봇 MVP를 기반으로 고도화하도록 요구하므로 B7-1은 **필수 선행**입니다. 반면 B4-2/B5-2/B5-3/B6-1은 Frontend SPA, REST/CRUD, 인증/소유권, 배포 역량을 보강하는 **권장 선행**이며 모두 CLEAR해야만 B7-2를 시작하는 것은 아닙니다.
+
 ## 현재 판정
 
 Project B의 풀스택 AI Chatbot **Reference 핵심 기준본을 준비했습니다.** 실제 AI API, 2-user 소유권, cloud URL, 팀 Git 이력과 Evidence는 Phase C에서 검증하므로 아직 `✅ CLEAR`가 아닙니다.

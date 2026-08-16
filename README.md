@@ -3,6 +3,7 @@
 ## 구분
 - 선택 Term Project / 고도화 (OPTIONAL / ADVANCED)
 - 현재 훈련 체계: Round 01 — CLEAR
+- 현재 작업 모드: Phase A — REFERENCE BUILD
 
 ## 시작 위치
 `training/round-01-clear/BEGINNER-GUIDE.md`부터 진행합니다.
@@ -11,10 +12,28 @@
 - `b7-2-mission.pdf`
 - `b7-2-mission.md`
 
-공식 원본은 수정하지 않습니다. 훈련 결과는 `training/` 아래에서 차수별로 독립 관리합니다.
+현재 저장소에는 별도 `b7-2-evaluation.md`가 없으므로 공식 Mission 요구사항 자체를 검증 Gate로 사용합니다.
 
-## Round 01 원칙
-공식 Mission → 용어/개념 → 환경 → 단계별 구현 → 검증 → Evidence → CLEAR 순서로 진행합니다. 필요한 코드와 명령에는 입문자용 주석을 작성하고, 비밀정보는 Git에 저장하지 않습니다.
+공식 원본은 수정하지 않습니다.
+
+## Round 01 Reference Build
+
+`training/round-01-clear/reference/`에 Project B 풀스택 기준본을 준비했습니다.
+
+핵심:
+- 회원가입 + password hash
+- 로그인 + Bearer token + logout revoke
+- 사용자별 AI ChatSession/Message 소유권
+- 다른 사용자 Chat 접근 404
+- 게시판 REST CRUD + 작성자 수정/삭제 403
+- Frontend REST client
+- environment-only AI API configuration
+- ERD / API Specification / System Architecture
+- Git collaboration / Cloud deployment / Cleanup Runtime checklist
+- Requirements Mapping / Evidence Guide / Beginner Guide / Checklist
 
 ## 상태
-훈련 골격 반영 완료. 상세 내용은 실제 수행 시 공식 원본을 기준으로 채웁니다.
+
+**Reference 핵심 기준본 준비 완료 / Runtime 미시작 / `✅ CLEAR` 아님**
+
+실제 AI Provider, 2-user Runtime, cloud 외부 URL, feature→develop→main PR 이력, 팀원별 10+ 커밋과 Evidence는 Phase C에서 확인합니다.

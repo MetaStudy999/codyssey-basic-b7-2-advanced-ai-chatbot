@@ -18,6 +18,7 @@ Project B의 풀스택 AI Chatbot **Reference 핵심 기준본을 준비했습�
 
 ## 핵심 문서
 
+- `START-CHECK.md` — B7-1 필수 확인 + REST/Auth/DB/Deploy/문서화 자가진단
 - `REFERENCE-BUILD.md`
 - `REFERENCE-STATUS.md`
 - `BEGINNER-GUIDE.md`
@@ -30,6 +31,8 @@ Project B의 풀스택 AI Chatbot **Reference 핵심 기준본을 준비했습�
 - `docs/collaboration.md`
 - `docs/deployment-checklist.md`
 - `evidence/README.md`
+
+`START-CHECK.md`에서 B7-1 준비 여부를 먼저 확인합니다. B7-1은 공식 구조상 필수 선행이며, 나머지 권장 선행은 부족한 역량만 선택적으로 보충하는 데 사용합니다.
 
 ## Reference 핵심
 

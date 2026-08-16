@@ -1,11 +1,38 @@
-# Round 01 — CLEAR
+# B7-2 Round 01 — CLEAR
 
-입문자가 공식 선택 Term Project 요구사항을 바탕으로 단계별로 따라가며 고도화 프로젝트를 완료합니다.
+구분: **선택 Term Project / 고도화 (OPTIONAL / ADVANCED)**  
+현재 모드: **Phase A — REFERENCE BUILD**  
+Runtime Project 상태: **⬜ NOT STARTED**
 
-진행 순서: Mission 확인 → 용어/개념 → 환경 → 구현 → 검증 → Evidence → CLEAR.
+## 현재 판정
 
-핵심 문서:
-- BEGINNER-GUIDE.md
-- CHECKLIST.md
+Project B의 풀스택 AI Chatbot **Reference 핵심 기준본을 준비했습니다.** 실제 AI API, 2-user 소유권, cloud URL, 팀 Git 이력과 Evidence는 Phase C에서 검증하므로 아직 `✅ CLEAR`가 아닙니다.
 
-상세 폴더와 파일은 실제로 필요해지는 시점에만 생성합니다.
+## 핵심 문서
+
+- `REFERENCE-BUILD.md`
+- `REFERENCE-STATUS.md`
+- `BEGINNER-GUIDE.md`
+- `CHECKLIST.md`
+- `reference/README.md`
+- `docs/erd.md`
+- `docs/api-spec.md`
+- `docs/architecture.md`
+- `docs/requirements-mapping.md`
+- `docs/collaboration.md`
+- `docs/deployment-checklist.md`
+- `evidence/README.md`
+
+## Reference 핵심
+
+- 회원가입 / password hash
+- 로그인 / Bearer access token / logout revoke
+- 사용자별 ChatSession / Message
+- 다른 사용자 ChatSession 404
+- 실제 AI API를 위한 env-only client
+- 게시판 REST CRUD + 작성자 수정/삭제 403
+- 분리된 frontend REST client
+- ERD / API / Architecture
+- setup / verify / reset / DB inspect
+
+Reference가 존재한다는 이유만으로 Runtime PASS를 표시하지 않습니다.

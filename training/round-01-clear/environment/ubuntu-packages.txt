@@ -1,0 +1,5 @@
+# B7-2 — Ubuntu 24.04 mission-specific APT packages
+# Backend/DB/AI Python libraries belong in the repository-local .venv.
+# Frontend packages belong in the project manifest/lock files.
+python3
+python3-venv
